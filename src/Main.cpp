@@ -17,11 +17,11 @@ int main() {
 	std::string filename = "";
 	if( DEBUG )
 	{
-		filename = "/home/kliment/eclipse-workspace/theTravellingSalesman/data/testData3.txt";
+		filename = "./data/testData3.txt";
 	}
 	else
 	{
-		filename = "/home/kliment/eclipse-workspace/theTravellingSalesman/data/data.txt";
+		filename = "./data/data.txt";
 	}
 
 	BellmanHeldKarp BHK = BellmanHeldKarp( filename );
